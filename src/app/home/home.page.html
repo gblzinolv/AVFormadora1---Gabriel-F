@@ -1,0 +1,16 @@
+<ion-header [translucent]="true">
+
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>{{ aluno.nome }}</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>Mátricula: {{ aluno.matricula }}</p>
+      <ion-img [src]="aluno.foto"></ion-img>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
